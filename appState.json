@@ -1,0 +1,95 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4a0c61a7-b550-4d0d-8398-6dd32eaea31e": {
+        "id": "4a0c61a7-b550-4d0d-8398-6dd32eaea31e",
+        "parent": null,
+        "name": "gmail2-gcp-py.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gmail2-gcp-py.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python37",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gmail2GcpPy"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1602060155253
+      },
+      "3497a3ee-e62f-4857-803d-2f93e3b34b47": {
+        "id": "3497a3ee-e62f-4857-803d-2f93e3b34b47",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "4f1b75de-8f0e-4b38-bdf7-cd70a3469bf2": {
+        "id": "4f1b75de-8f0e-4b38-bdf7-cd70a3469bf2",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py",
+        "lastUpdated": 1602060160700
+      }
+    },
+    "openFiles": [
+      "4a0c61a7-b550-4d0d-8398-6dd32eaea31e",
+      "4f1b75de-8f0e-4b38-bdf7-cd70a3469bf2"
+    ],
+    "currentFileId": "4f1b75de-8f0e-4b38-bdf7-cd70a3469bf2",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.3.1",
+    "projectName": "gmail2-gcp-py",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1602060681640
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gmail2-gcp-py",
+      "url": "https://github.com/Kumudikatest/gmail2-gcp-py"
+    }
+  }
+}
